@@ -1,50 +1,53 @@
-# Portfólio de Michael Almeida
+# Michael Almeida | Portfólio
 
-Site profissional preparado para GitHub Pages. Inclui apresentação, projetos, competências, experiência, formação e contato.
+Sou técnico em Informática e estudante de Análise e Desenvolvimento de Sistemas na Martha Falcão Wyden, em Manaus.
 
-**Endereço previsto após publicação:** https://fellipemec.github.io/Portifolio/
+Tenho experiência com suporte técnico, manutenção de computadores e rotinas administrativas. Neste portfólio, compartilho meus projetos em Excel e desenvolvimento web.
 
-## Publicar pelo navegador
+🌐 **[Acesse meu portfólio](https://fellipemec.github.io/Portifolio/)**
 
-1. Entre na conta **Fellipemec** em https://github.com.
-2. Crie um repositório chamado **Portifolio** e selecione **Public**. Se já existir um repositório com esse nome, confira o conteúdo antes de usá-lo.
-3. Descompacte o pacote `portfolio-michael-almeida.zip` no seu computador.
-4. No repositório, escolha **Add file → Upload files**. Envie o **conteúdo** da pasta descompactada: `index.html`, `projeto-cbi.html`, `projeto-estoque.html`, `assets/` e `projetos/`. O `index.html` deve ficar na raiz do repositório, sem uma pasta adicional envolvendo o site. Você pode enviar também este README e o arquivo `.nojekyll`.
-5. Confirme o envio em **Commit changes**.
-6. Abra **Settings → Pages**.
-7. Em **Build and deployment → Source**, selecione **Deploy from a branch**.
-8. Em **Branch**, escolha **main** e **/ (root)**. Clique em **Save**.
-9. Aguarde a publicação. A seção Pages mostrará o link do site; pode levar alguns minutos.
-10. Confira a página inicial, os dois projetos e o botão **Abrir demonstração** do CBI.
+## Projetos
 
-Não é necessário instalar Node, executar comandos ou compilar o portfólio. O pacote contém arquivos estáticos prontos para upload. Documentação oficial: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+### Controle de Estoque em Excel
 
-## Colocar nos Destaques do LinkedIn
+Planilha para cadastrar materiais, registrar entradas e saídas e acompanhar saldos e necessidades de reposição.
 
-Depois que o endereço público estiver funcionando, adicione o link à seção **Destaques** do seu perfil.
+- Cadastro de materiais e solicitantes.
+- Cálculo de saldo e valor em estoque.
+- Alertas de reposição e validação de lançamentos.
+- Dashboard com indicadores e gráficos.
 
-Título sugerido: **Michael Almeida | Portfólio de projetos**
+O portfólio apresenta uma representação do painel e uma simulação interativa com dados fictícios. A planilha original não está disponível neste repositório.
 
-Descrição sugerida: **Conheça meus projetos de controle de estoque em Excel e desenvolvimento web, além da minha trajetória em suporte de TI.**
+### Landing Page do CBI
 
-## O que está incluído
+Página de apresentação do Colégio Batista Inovação, com informações sobre a escola, etapas de ensino e atividades.
 
-- `index.html`: página principal.
-- `projeto-estoque.html`: apresentação do Excel com uma simulação de saldo e alertas no navegador.
-- `projeto-cbi.html`: apresentação da landing page com captura real.
-- `projetos/cbi/`: demonstração da landing page a partir do build fornecido, com caminhos adaptados para uma subpasta do GitHub Pages.
-- `assets/`: estilos, scripts, imagens, fontes locais e licenças.
+- Layout responsivo para computador e celular.
+- Navegação por seções e menu móvel.
+- Galeria de atividades.
+- Links para contato via WhatsApp.
 
-O painel ilustrado do estoque usa dados fictícios e está identificado como representação da interface. A simulação em JavaScript apresenta a lógica básica do projeto; o projeto original é uma planilha Excel. A planilha original e o PDF do perfil não foram incluídos nos arquivos públicos.
+**Tecnologias:** React, JavaScript, CSS e Vite.
 
-A experiência e a formação foram organizadas com base no perfil fornecido. Os períodos marcados como atuais seguem o PDF. O CBI mantém o conteúdo do projeto fornecido, inclusive contatos e indicação de depoimentos demonstrativos.
+## Sobre este repositório
 
-## Alterações futuras
+O portfólio utiliza HTML, CSS e JavaScript e está hospedado no GitHub Pages.
 
-- Edite os textos diretamente nos três arquivos HTML.
-- Altere cores e layout em `assets/style.css`.
-- Altere o menu e a simulação em `assets/main.js`.
-- Para atualizar a demonstração do CBI, use um novo build do projeto original, adaptando os caminhos dos ativos para a subpasta.
-- Se mudar o nome do repositório, atualize as URLs de `canonical`, `og:url`, `og:image` e os dados estruturados nos três arquivos HTML. Os links internos já são relativos.
+| Arquivo ou pasta | Conteúdo |
+|---|---|
+| `index.html` | Apresentação, projetos, experiência, formação e contato |
+| `projeto-estoque.html` | Detalhes do controle de estoque |
+| `projeto-cbi.html` | Detalhes da landing page do CBI |
+| `assets/` | Estilos, scripts, imagens e fontes |
+| `projetos/cbi/` | Demonstração da landing page |
 
-As fontes e as dependências reutilizadas do projeto CBI têm suas licenças preservadas em `assets/licenses/` e `projetos/cbi/licenses/`.
+## Contato
+
+- [LinkedIn](https://www.linkedin.com/in/michael-almeida2/)
+- [GitHub](https://github.com/Fellipemec)
+- E-mail: michaelfellype1@gmail.com
+
+## Licenças de terceiros
+
+As licenças das fontes e dependências utilizadas estão preservadas em `assets/licenses/` e `projetos/cbi/licenses/`.
