@@ -43,3 +43,9 @@
 .case-contact .button{gap:12px}
 @media(max-width:760px){.education-courses{grid-template-columns:1fr;gap:0}.career-grid{gap:34px}.hero-socials{gap:21px}.hero-actions{gap:18px 23px}.footer-inner .footer-socials{width:100%;gap:25px}.contact-service{gap:13px}.contact-title{font-size:15px}}
 @media(max-width:370px){.contact-title{font-size:13px}.contact-service{gap:10px}.footer-socials>a{font-size:10px}}
+
+/* Group the projects heading and description. */
+.projects .section-heading{display:block;margin-bottom:38px}
+.projects .section-heading>p{margin-top:17px;max-width:580px;font-size:14px;line-height:1.8}
+.projects .project-card:first-of-type{margin-top:0}
+@media(max-width:760px){.projects .section-heading{margin-bottom:29px}.projects .section-heading>p{font-size:13px;margin-top:16px}}
