@@ -50,43 +50,7 @@
 .projects .project-card:first-of-type{margin-top:0}
 @media(max-width:760px){.projects .section-heading{margin-bottom:29px}.projects .section-heading>p{font-size:13px;margin-top:16px}}
 
-/* Center the mobile introduction and section headers; retain readable body copy. */
+/* Center only the four requested titles on mobile. */
 @media(max-width:760px){
-  .hero-copy{text-align:center}
-  .hero-role,.hero-description{margin-left:auto;margin-right:auto}
-  .hero-description{max-width:360px}
-  .hero-actions{flex-direction:column;align-items:center;justify-content:center;gap:20px}
-  .hero-socials,.hero-meta{justify-content:center}
-  .hero-meta{font-size:10px;flex-wrap:wrap}
-  .profile-photo>figcaption{text-align:center}
-  .hero-bottom{justify-content:center;gap:22px;flex-wrap:wrap;text-align:center}
-  .expertise-strip>.container{text-align:center}
-  .section-heading{text-align:center}
-  .section-heading>p{margin-left:auto;margin-right:auto;max-width:360px}
-  .about-grid>div:first-child{text-align:center}
-  .about-signature{justify-content:center}
-  .about-copy .lead{text-align:center;max-width:360px;margin-left:auto;margin-right:auto}
-  .about-copy>.text-link{display:flex;justify-content:center;text-align:center;gap:10px}
-  .skill-column>.skill-number,.skill-column>h3{text-align:center}
-  .skill-column .tags{justify-content:center}
-  .career .column-title{text-align:center}
-  .timeline{padding:0;border-left:0}
-  .timeline>li{padding:0 0 25px;margin-bottom:25px;border-bottom:1px solid var(--line)}
-  .timeline>li:last-child{padding-bottom:0;margin-bottom:0;border-bottom:0}
-  .timeline>li:before{display:none}
-  .timeline .timeline-date,.timeline h4,.timeline .timeline-role{text-align:center}
-  .education-item{text-align:center}
-  .learning>.eyebrow{text-align:center}
-  .learning ul{max-width:330px;margin-left:auto;margin-right:auto}
-  .contact-grid>div:first-child{text-align:center}
-  .contact p{margin-left:auto;margin-right:auto}
-  .contact-links>a{position:relative;justify-content:center;text-align:center;padding:20px}
-  .contact-service{flex-direction:column;gap:10px;max-width:100%}
-  .contact-info{width:100%}
-  .contact-title{font-size:14px}
-  .contact-links>a>span:last-child{position:absolute;right:0;top:50%;transform:translateY(-50%);font-size:23px}
-  .contact-links>p{text-align:center}
-  .footer-inner{flex-direction:column;text-align:center;align-items:center;gap:20px}
-  .footer-inner .brand,.footer-inner .footer-socials{justify-content:center}
+  .hero h1,.about-grid h2,.career .section-heading h2,.contact h2{text-align:center}
 }
-@media(max-width:370px){.hero-meta{font-size:9px}.contact-title{font-size:13px}}
