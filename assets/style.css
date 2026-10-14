@@ -17,3 +17,29 @@
 @media(max-width:1000px){.hero-grid{gap:35px}.profile-photo{margin-right:0}.profile-photo>img{height:420px}.hero h1{font-size:84px}.hero-role{font-size:15px}.hero-description{font-size:14px}.contact h2{font-size:44px}}
 @media(max-width:760px){.hero-grid{padding-top:42px;padding-bottom:34px;gap:35px}.hero h1{font-size:clamp(70px,14vw,96px)}.hero-role{font-size:15px}.profile-photo{width:100%;max-width:400px;margin:0 auto}.profile-photo>img{height:auto;aspect-ratio:1.05;object-fit:cover;object-position:50% 30%}.profile-photo>figcaption{font-size:10px}.contact h2{font-size:40px}.hero-meta{font-size:9px}.hero-description{font-size:14px}.hero-bottom>span{max-width:170px}}
 @media(max-width:370px){.hero h1{font-size:68px}.hero-role{font-size:14px}.hero-meta{font-size:8px}}
+
+/* Clear section order and consistent social links. */
+.career .section-heading{display:block}
+.career .section-heading>p{margin-top:20px}
+.career-grid{grid-template-columns:1fr;gap:43px}
+.career-grid .timeline{max-width:850px}
+.education-panel{width:100%}
+.education-courses{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.education-courses .education-item{margin-bottom:24px}
+.social-icon{display:inline-block;width:20px;height:20px;flex:0 0 20px;vertical-align:middle}
+.hero-actions{flex-wrap:wrap}
+.hero-socials{display:flex;align-items:center;gap:20px}
+.hero-link{display:inline-flex;align-items:center;gap:8px}
+.hero-link .social-icon{width:17px;height:17px;flex-basis:17px}
+.footer-socials{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.footer-socials>a{display:inline-flex;align-items:center;gap:8px;font-size:11px;color:#b4c5d0}
+.footer-socials>a:hover{color:var(--accent)}
+.footer-socials .social-icon{width:17px;height:17px;flex-basis:17px}
+.contact-service{display:flex;gap:17px;align-items:center;min-width:0}
+.contact-service>.social-icon{color:var(--accent);width:23px;height:23px;flex-basis:23px}
+.contact-info{min-width:0}
+.contact-title{overflow-wrap:anywhere}
+.contact-links>a>span:last-child{flex-shrink:0}
+.case-contact .button{gap:12px}
+@media(max-width:760px){.education-courses{grid-template-columns:1fr;gap:0}.career-grid{gap:34px}.hero-socials{gap:21px}.hero-actions{gap:18px 23px}.footer-inner .footer-socials{width:100%;gap:25px}.contact-service{gap:13px}.contact-title{font-size:15px}}
+@media(max-width:370px){.contact-title{font-size:13px}.contact-service{gap:10px}.footer-socials>a{font-size:10px}}
