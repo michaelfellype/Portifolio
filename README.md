@@ -4,7 +4,7 @@ Sou técnico em Informática e estudante de Análise e Desenvolvimento de Sistem
 
 Tenho experiência com suporte técnico, manutenção de computadores e rotinas administrativas. Neste portfólio, compartilho meus projetos em Excel e desenvolvimento web.
 
-🌐 **[Acesse meu portfólio](https://fellipemec.github.io/Portifolio/)**
+🌐 https://michaelfellype.github.io/Portifolio/
 
 ## Projetos
 
